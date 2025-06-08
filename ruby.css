@@ -11,3 +11,75 @@ body #logo, body #logo.power_logo, body #logo.power_logo2, body #logo.power_logo
   background: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/main/rubygangbanner2.png") no-repeat bottom center;
   background-size: contain;
 }
+body .global_buffs {
+  background-color: rgba(200, 40, 40, 0.65);
+}
+
+body #userinfo {
+  background-color: rgba(140, 0, 20, 0.7);
+  color: #fff;
+}
+
+body #searchbars ul li input,
+body input,
+body select,
+body button,
+body textarea,
+body .alertbar a {
+  background-color: rgba(220, 60, 60, 0.7); /* Brighter red tone for better UI clarity */
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
+  border-radius: 4px;
+}
+
+body #content {
+  background: linear-gradient(
+    to bottom,
+    rgba(100, 0, 10, 0.9) 0%,
+    rgba(160, 0, 40, 0.8) 40%,
+    rgba(220, 20, 60, 0.7) 70%,
+    rgba(100, 0, 10, 0.9) 100%
+  );
+}
+
+body .box,
+body .profile .box_main_info,
+body table {
+  background-color: rgba(1, 0, 0, 0.6);
+  background-image: none;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body .box .head,
+body .head,
+body .colhead,
+body .colhead_dark,
+body #achievements .colhead {
+  background: rgba(100, 0, 30, 0.7);
+  font-weight: bold;
+  color: #fff;
+}
+
+body #copyright p:nth-of-type(2),
+body #server_stats {
+  background-color: rgba(60, 0, 20, 0.6);
+  width: 100%;
+  float: none;
+  color: #eee;
+}
+
+body #toplink {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(to right, #8b0000, #dc143c);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(139, 0, 0, 0.6);
+  font-weight: bold;
+  display: inline-block;
+  z-index: 999;
+}
