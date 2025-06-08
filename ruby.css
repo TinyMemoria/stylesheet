@@ -8,6 +8,6 @@ body {
 }
 body #logo, body #logo.power_logo, body #logo.power_logo2, body #logo.power_logo3 {
   border-bottom: none;
-  background: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/refs/heads/main/rubygangbanner2.png") no-repeat bottom center;
+  background: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/main/rubygangbanner2.png") no-repeat bottom center;
   background-size: contain;
 }
