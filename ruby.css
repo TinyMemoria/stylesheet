@@ -1,0 +1,100 @@
+/* Ruby-themed palette */
+:root {
+  --ruby-dark: #7c0a02;
+  --ruby: #9b111e;
+  --ruby-light: #c72c48;
+  --ruby-glow: #ff6677;
+  --ruby-accent: #ffe5e5;
+  --ruby-bg: #1a0000;
+  --pixel-font: 'Press Start 2P', monospace;
+}
+
+/* Apply background and base text */
+body {
+  background: linear-gradient(to bottom right, var(--ruby-dark), var(--ruby));
+  color: var(--ruby-accent);
+  font-family: var(--pixel-font), sans-serif;
+  text-shadow: 1px 1px 0 var(--ruby-dark);
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+/* Gem-like button style */
+button, .btn {
+  background: radial-gradient(circle, var(--ruby-light), var(--ruby));
+  color: white;
+  border: 2px solid var(--ruby-glow);
+  box-shadow: 0 0 8px var(--ruby-glow);
+  padding: 0.6rem 1.2rem;
+  font-family: var(--pixel-font);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover, .btn:hover {
+  background: var(--ruby-glow);
+  color: var(--ruby-bg);
+  box-shadow: 0 0 12px white;
+}
+
+/* Ruby gem-style header */
+h1, h2, h3 {
+  color: var(--ruby-glow);
+  text-transform: uppercase;
+  border-bottom: 3px dashed var(--ruby-accent);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+}
+
+/* Card or tile style - inspired by Pokémon battle screen UI */
+.card {
+  background-color: var(--ruby-bg);
+  border: 3px solid var(--ruby-glow);
+  box-shadow: 0 0 10px var(--ruby-light);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  font-family: var(--pixel-font);
+  color: var(--ruby-accent);
+}
+
+/* Ruby-themed link */
+a {
+  color: var(--ruby-glow);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--ruby-glow);
+}
+
+a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* Retro ruby-style input field */
+input[type="text"], textarea {
+  background-color: var(--ruby-bg);
+  color: var(--ruby-accent);
+  border: 2px solid var(--ruby-light);
+  padding: 0.5rem;
+  font-family: var(--pixel-font);
+  width: 100%;
+}
+
+/* Pokemon battle bar-like progress */
+.progress-bar {
+  background-color: #440000;
+  border: 2px solid var(--ruby-glow);
+  height: 24px;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background: linear-gradient(to right, var(--ruby-light), var(--ruby));
+  height: 100%;
+  width: 65%; /* Example fill */
+  transition: width 0.3s ease;
+}
