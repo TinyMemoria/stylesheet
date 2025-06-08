@@ -222,12 +222,12 @@ body#user .save_message {
 }
 
 /* Wiki Index */
-.wiki_index .wiki_article h4 strong {
+body#user .wiki_index .wiki_article h4 strong {
   background-color: rgba(105, 0, 25, 0.6) !important;
 }
 
 /* Request Label */
-#requests #otherop .label {
+body#user #requests #otherop .label {
   background-color: rgba(120, 10, 35, 0.6);
 }
 
