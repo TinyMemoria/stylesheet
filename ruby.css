@@ -11,9 +11,6 @@ body #logo, body #logo.power_logo, body #logo.power_logo2, body #logo.power_logo
   background: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/main/rubygangbanner2.png") no-repeat bottom center;
   background-size: contain;
 }
-body .global_buffs {
-  background-color: rgba(200, 40, 40, 0.65);
-}
 
 body #userinfo {
   background-color: rgba(140, 0, 20, 0.7);
@@ -26,9 +23,9 @@ body select,
 body button,
 body textarea,
 body .alertbar a {
-  background-color: rgba(220, 60, 60, 0.7); /* Brighter red tone for better UI clarity */
+  background-color: rgba(220, 60, 60, 0.7);
   color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border */
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
 }
 
@@ -83,3 +80,154 @@ body #toplink {
   display: inline-block;
   z-index: 999;
 }
+
+/* General Elements */
+body #userinfo_minor, body #userinfo_minor:hover,
+body #userinfo_stats, body #userinfo_stats:hover {
+  display: block;
+  height: 25px;
+  width: 30px;
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  z-index: 999;
+  padding-top: 0px;
+}
+
+body #userinfo_minor li, body #userinfo_stats:hover li {
+  top: 24px;
+  background-size: auto;
+}
+
+/* Dropdown Items */
+body #userinfo_stats li,
+body #userinfo_minor:hover li,
+body .sub span {
+  background-color: rgba(105, 0, 25, 0.9); /* Garnet red */
+  color: #fdfdfd;
+}
+
+body #userinfo_minor li:first-child,
+body #userinfo_stats li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+body #userinfo_minor li:last-child,
+body #userinfo_stats li:last-child {
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #e5dfa3 !important;
+}
+
+body #userinfo_minor li,
+body #userinfo_stats li {
+  border-bottom: 1px solid #e5dfa3 !important;
+  border-left: 1px solid #e5dfa3 !important;
+  border-right: 1px solid #e5dfa3 !important;
+}
+
+/* Global Buffs */
+body .global_buffs {
+  background-color: rgba(120, 10, 35, 0.6); /* Ruby shadow */
+}
+
+/* Menu Links */
+body #menu ul a {
+  color: #fff;
+}
+body #menu ul a:hover {
+  color: #e5dfa3; /* soft gold */
+}
+
+/* Achievements */
+body #achievements tr {
+  border-bottom: 1px solid #e5dfa3;
+}
+
+/* Blockquotes */
+body blockquote {
+  background-color: rgba(105, 0, 25, 0.85);
+  color: #f8f8f8;
+}
+
+/* Progress Bar */
+body #progress_bar {
+  background-color: rgba(105, 0, 25, 0.6);
+}
+body #index .sidebar #progress_bar,
+body .sidebar #progress_bar {
+  background-color: rgba(120, 10, 35, 0.6);
+  border-radius: 3px;
+}
+body #index .sidebar #progress_bar .main_bar,
+body .sidebar #progress_bar .main_bar {
+  background-color: rgba(229, 223, 163, 0.7); /* soft champagne gold */
+  background-image: none;
+}
+
+/* Links */
+body a {
+  color: #e5dfa3;
+}
+body .group_torrent a {
+  color: #fff;
+}
+body #color_seeding {
+  color: #e5dfa3;
+}
+body #color_snatched {
+  color: #ff4d4d;
+}
+
+/* Torrent Group Info */
+body .main_column .torrent_table tr.group_torrent td.edition_info {
+  background-color: rgba(120, 10, 35, 0.8);
+}
+body .rowa td {
+  background-color: rgba(120, 10, 35, 0.6);
+}
+body .rowb td {
+  background-color: rgba(105, 0, 25, 0.6);
+}
+body .torrent_history #torrent_history_table tr:nth-of-type(2n) td {
+  background-color: rgba(120, 10, 35, 0.5);
+}
+
+/* Forum Stats */
+body tr.likes td,
+body .forumstat {
+  background-color: rgba(105, 0, 25, 0.5);
+}
+
+/* Inputs & Forms */
+body textarea,
+body .spoilerbox,
+body code,
+body button,
+body input,
+body select {
+  background-color: rgba(105, 0, 25, 0.9);
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Signature */
+body .signature a {
+  color: #f0f8e0; /* pale ivory */
+}
+
+/* Messages */
+body #platcheckbox td[colspan="5"],
+body .save_message {
+  background-color: rgba(105, 0, 25, 0.6);
+}
+
+/* Wiki Index */
+.wiki_index .wiki_article h4 strong {
+  background-color: rgba(105, 0, 25, 0.6) !important;
+}
+
+/* Request Label */
+#requests #otherop .label {
+  background-color: rgba(120, 10, 35, 0.6);
+}
+
