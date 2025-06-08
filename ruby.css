@@ -4,7 +4,7 @@
  */
 @import url("https://gazellegames.net/static/styles/game_room/style.css");
 body#user {
-  background-image: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/06cc36d30321c857e5b9837bc333e2c2f7e0a873/rubygangbackground.png");
+  background-image: url("https://raw.githubusercontent.com/TinyMemoria/stylesheet/refs/heads/main/rubygangbackgrounddarkoverlay1.png");
 }
 body#user #logo, body#user #logo.power_logo, body#user #logo.power_logo2, body#user #logo.power_logo3 {
   border-bottom: none;
